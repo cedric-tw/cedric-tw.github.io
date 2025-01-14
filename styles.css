@@ -73,3 +73,7 @@ footer {
     color: #5d009e;
     font-size: 0.9rem;
 }
+
+ .hidden {
+     display: none;
+ }
