@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/
+
+# IntelliJ IDEA / JetBrains IDEs
+.idea/
+
+# Eclipse IDE
+.project
+.classpath
+.settings/
+
+# Visual Studio
+.vs/
+.vs2019/
+.vs2017/
+.vs2015/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Log files
+*.log
