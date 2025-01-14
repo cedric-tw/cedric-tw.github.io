@@ -48,17 +48,11 @@
 		<br/>
 		Universal Link (double encoded, no target):
 		-->
-		<a id="desktop-content" class="hidden"
-		   href="https://go.twint.ch/1/e/tw?tw=acq.YaF73KPzR_ePMMxy53PD8CF2SrVD_zcEwqIQJ1_DouRePac87a2EcBdp61iD2RDO."
-		   target=_self>
-			<img src="images/paylink-button-dark-EN.svg" alt="Twint PayLink"
-				 style="width:300px; height:auto; border:0;">
+		<a href="https://go.twint.ch/1/e/tw?tw=acq.YaF73KPzR_ePMMxy53PD8CF2SrVD_zcEwqIQJ1_DouRePac87a2EcBdp61iD2RDO.">
+			<img id="desktop-content" class="hidden" src="images/paylink-button-dark-EN.svg" alt="Twint PayLink" style="width:300px; height:auto; border:0;">
 		</a>
-		<a id="mobile-content" class="hidden"
-		   href="https://szuniverse.github.io/buy?qrCodeScan=https%253A%252F%252Fgo.twint.ch%252F1%252Fe%252Ftw%253Ftw%253Dacq.YaF73KPzR_ePMMxy53PD8CF2SrVD_zcEwqIQJ1_DouRePac87a2EcBdp61iD2RDO."
-		   target=_self>
-			<img src="images/paylink-button-dark-EN.svg" alt="Twint PayLink"
-				 style="width:300px; height:auto; border:0;">
+		<a href="https://szuniverse.github.io/buy?qrCodeScan=https%253A%252F%252Fgo.twint.ch%252F1%252Fe%252Ftw%253Ftw%253Dacq.YaF73KPzR_ePMMxy53PD8CF2SrVD_zcEwqIQJ1_DouRePac87a2EcBdp61iD2RDO.">
+			<img id="mobile-content" class="hidden"  src="images/paylink-button-dark-EN.svg" alt="Twint PayLink"  style="width:300px; height:auto; border:0;">
 		</a>
 		<!--
 		<a href="https://szuniverse.github.io/buy?qrCodeScan=https%253A%252F%252Fgo.twint.ch%252F1%252Fe%252Ftw%253Ftw%253Dacq.YaF73KPzR_ePMMxy53PD8CF2SrVD_zcEwqIQJ1_DouRePac87a2EcBdp61iD2RDO.">Universal Link PayLink (Hundeschule)</a>
@@ -80,7 +74,6 @@
     const isMobile = /iphone|ipad|android|mobile/.test(userAgent);
     alert(isMobile)
 	alert(mobileContent)
-
     alert(userAgent)
 
     // Show content based on the user agent
